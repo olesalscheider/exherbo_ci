@@ -60,6 +60,7 @@ source /etc/profile
 eclectic env update
 
 chgrp paludisbuild /dev/tty
+export PALUDIS_DO_NOTHING_SANDBOXY=1
 
 echo "sys-apps/paludis ruby" >> /etc/paludis/options.conf
 AddLocalSync "arbor"
