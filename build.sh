@@ -87,6 +87,9 @@ wget -c https://git.exherbo.org/infra-scripts.git/plain/continuous-integration/g
 wget -c https://git.exherbo.org/exherbo-dev-tools.git/plain/mscan2.rb
 chmod +x buildtest handle_confirmations commits_to_build.rb mscan2.rb
 
+# install ruby client for the gitlab api
+gem install gitlab
+
 echo "Cleaning up again"
 rm -f /root/.bash_history
 rm -Rf /tmp/*
