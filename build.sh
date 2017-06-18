@@ -83,8 +83,9 @@ echo "Downloading build scripts"
 cd /usr/local/bin
 wget -c https://git.exherbo.org/infra-scripts.git/plain/continuous-integration/gitlab/buildtest
 wget -c https://git.exherbo.org/infra-scripts.git/plain/continuous-integration/gitlab/handle_confirmations
+wget -c https://git.exherbo.org/infra-scripts.git/plain/continuous-integration/gitlab/commits_to_build.rb
 wget -c https://git.exherbo.org/exherbo-dev-tools.git/plain/mscan2.rb
-chmod +x buildtest handle_confirmations mscan2.rb
+chmod +x buildtest handle_confirmations commits_to_build.rb mscan2.rb
 
 echo "Cleaning up again"
 rm -f /root/.bash_history
