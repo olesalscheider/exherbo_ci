@@ -21,7 +21,7 @@ AddLocalSync()
 }
 
 baseurl="http://dev.exherbo.org/stages/"
-rootfs="exherbo-amd64-current.tar.xz"
+rootfs="exherbo-x86_64-pc-linux-gnu-current.tar.xz"
 checksum="sha1sum"
 
 # Create working directory, keep a copy of busybox
